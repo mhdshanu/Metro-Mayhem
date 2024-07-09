@@ -73,6 +73,10 @@ h3 {
 .answer-container {
   width: 100%;
   text-align: center;
+  min-height: 50px; /* Set a minimum height */
+  display: flex;
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
 }
 
 input {
